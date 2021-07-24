@@ -1,7 +1,7 @@
 /*
     >> 백준 1427번 : 소트인사이트
     입력된 숫자를 한 글자씩 읽어서 해당 숫자를 정렬한뒤 다시 출력
-*/
+*/ 
 #include <iostream>
 #include <vector>
 #include <algorithm>
