@@ -50,6 +50,7 @@ print(solution("123_.def"))
 print(solution("abcdefghijklmn.p"))
 
 '''
+< 다른 풀이 > - 정규식!!
 import re
 def solution(new_id):    
     #1단계 & 2단계 소문자 치환, 제거

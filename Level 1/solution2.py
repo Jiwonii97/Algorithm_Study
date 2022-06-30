@@ -26,6 +26,7 @@ solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo
 solution(["con", "ryan"],["ryan con", "ryan con", "ryan con", "ryan con"],3)
 
 '''
+< 다른 풀이 >
 def solution(id_list, report, k):
     answer = [0] * len(id_list)    
     reports = {x : 0 for x in id_list}

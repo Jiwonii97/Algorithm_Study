@@ -32,6 +32,7 @@ print(solution([45, 4, 35, 20, 3, 9],[20, 9, 3, 45, 4, 35]))
 print(solution([1,2,3,4,5,6],[7,8,9,10,11,12]))
 
 '''
+< 다른 풀이 >
 def solution(lottos, win_nums):
     
     rank=[6,6,5,4,3,2,1]
