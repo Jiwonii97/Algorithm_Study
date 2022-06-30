@@ -1,6 +1,6 @@
 # Algorithm_Study
 
-- Level 1  
+## Level 1  
 **solution2. 신고 결과 받기 (코딩테스트 연습 / 2022 KAKAO BLIND RECRUITMENT)** : list comprehension, set, index 활용  
 **solution3. 로또의 최고 순위와 최저 순위 (코딩테스트 연습 / 2021 Dev-Matching: 웹 백엔드 개발자(상반기))** : 경우의 수를 따지는 단순 수학 문제  
 **solution4. 신규 아이디 추천 (😝😝😝😝😝) ( 코딩테스트 연습 / 2021 KAKAO BLIND RECRUITMENT )** : 정규식 활용 문제   
