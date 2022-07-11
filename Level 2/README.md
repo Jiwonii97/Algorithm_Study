@@ -11,6 +11,7 @@
 **solution6. 다리를 지나는 트럭 ( 코딩테스트 연습 / 스택/큐 )** : collection, deque 사용, 시간을 따로 계산하지 않고 popleft()와 직접 0과 함께 숫자를 넣어 시간 계산 진행  
 **solution7. 다리를 지나는 트럭 ( 코딩테스트 연습 / 스택/큐 )** : collection, deque 사용, 시간을 따로 계산하지 않고 popleft()와 직접 0과 함께 숫자를 넣어 시간 계산 진행, reverse를 통한 -1 인덱스 사용  
 **solution8. 주식가격 ( 코딩테스트 연습 / 스택/큐 )** : Stack 활용  
+**solution22. 올바른 괄호 ( 코딩테스트 연습 / 스택/큐 )** : 일반적인 스택 활용, try-except를 사용한 stack 처리   
   
 ### - 정렬  
 **solution9. H-Index ( 코딩테스트 연습 / 정렬 )** : 오름차순으로 정렬후 조건에 맞게 문제 풀이  
