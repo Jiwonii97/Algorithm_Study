@@ -11,6 +11,7 @@
 **solution33. 멀쩡한 사각형 ( Summer/Winter Coding(2019) )** : 최대 공약수를 찾아 효율적으로 검색  
 **solution34. 행렬 테두리 회전하기 ( 2021 Dev-Matching: 웹 백엔드 개발자(상반기) )** : 큐를 이용해 노가다로 품, 근데 다 비슷한게 푼듯  
 **solution35. 문자열 압축 ( 2020 KAKAO BLIND RECRUITMENT )** : 완전탐색 문제, 일정 문자열 길이를 반복해나가며 최솟값을 찾아나가는 구현 문제  
+**solution36. [1차] 뉴스 클러스터링 ( 2018 KAKAO BLIND RECRUITMENT )** : 문자열 문제(isalpha()) or 정규식 활용 후, set을 활용한 intersectoin(교집합), union(합집합) 활용  
   
 ### - 스택 / 큐  
 **solution5. 프린터 ( 스택/큐 )** : queue와 deque 활용  
