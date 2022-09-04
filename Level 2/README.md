@@ -12,6 +12,9 @@
 **solution34. 행렬 테두리 회전하기 ( 2021 Dev-Matching: 웹 백엔드 개발자(상반기) )** : 큐를 이용해 노가다로 품, 근데 다 비슷한게 푼듯  
 **solution35. 문자열 압축 ( 2020 KAKAO BLIND RECRUITMENT )** : 완전탐색 문제, 일정 문자열 길이를 반복해나가며 최솟값을 찾아나가는 구현 문제  
 **solution36. [1차] 뉴스 클러스터링 ( 2018 KAKAO BLIND RECRUITMENT )** : 문자열 문제(isalpha()) or 정규식 활용 후, set을 활용한 intersectoin(교집합), union(합집합) 활용  
+**solution37. JadenCase 문자열 만들기 ( 연습문제 )** : 문자열 문제, upper(), lower(), title()의 사용법 확인  
+**solution38. 튜플 (2019 카카오 개발자 겨울 인턴십)** : 문자열 문제, 파싱 진행후 추가적인 spilt을 진행, set을 활용해 원하는 결과를 도출, list comprehension으로 좀더 pythonic하게 구현 가능   
+**solution39. 양궁대회 (2022 KAKAO BLIND RECRUITMENT)** : DFS 문제 + combination_with_replacement를 통해 경우의 수를 조합해 원하는 결과를 찾을 수 있음  
   
 ### - 스택 / 큐  
 **solution5. 프린터 ( 스택/큐 )** : queue와 deque 활용  
