@@ -20,6 +20,7 @@ print(solution("{{4,2,3},{3},{2,3,4,1},{2,3}}"))     # [3, 2, 4, 1]
 ''' 
     < 다른 풀이 >
 
+    # https://pydole.tistory.com/80
     def solution(s):
         answer = []
 
