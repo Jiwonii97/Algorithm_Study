@@ -13,12 +13,14 @@
 **solution35. 문자열 압축 ( 2020 KAKAO BLIND RECRUITMENT )** : 완전탐색 문제, 일정 문자열 길이를 반복해나가며 최솟값을 찾아나가는 구현 문제  
 **solution36. [1차] 뉴스 클러스터링 ( 2018 KAKAO BLIND RECRUITMENT )** : 문자열 문제(isalpha()) or 정규식 활용 후, set을 활용한 intersectoin(교집합), union(합집합) 활용  
 **solution37. JadenCase 문자열 만들기 ( 연습문제 )** : 문자열 문제, upper(), lower(), title()의 사용법 확인  
-**solution38. 튜플 (2019 카카오 개발자 겨울 인턴십)** : 문자열 문제, 파싱 진행후 추가적인 spilt을 진행, set을 활용해 원하는 결과를 도출, list comprehension으로 좀더 pythonic하게 구현 가능   
-**solution39. 양궁대회 (2022 KAKAO BLIND RECRUITMENT)** : DFS 문제 + combination_with_replacement를 통해 경우의 수를 조합해 원하는 결과를 찾을 수 있음  
+**solution38. 튜플 ( 2019 카카오 개발자 겨울 인턴십 )** : 문자열 문제, 파싱 진행후 추가적인 spilt을 진행, set을 활용해 원하는 결과를 도출, list comprehension으로 좀더 pythonic하게 구현 가능   
+**solution39. 양궁대회 ( 2022 KAKAO BLIND RECRUITMENT )** : DFS 문제 + combination_with_replacement를 통해 경우의 수를 조합해 원하는 결과를 찾을 수 있음  
+**solution40. 다음 큰 숫자 ( 연습문제 )** : bin을 통해 문자열로 변환하고 Counter를 통해 전체적인 개수 파악후, 순차적으로 해답을 찾아감 / string.count()로 Counter 대체 가능  
+**solution41. 가장 큰 정사각형 찾기 ( 연습문제 )** : DP문제, 주변의 데이터를 확인해 이전의 데이터를 활용하는 기본적인 DP 문제 (문제를 보고 손으로 풀어보며 풀이방법을 찾아가는 방향이 좋을거 같다)  
   
 ### - 스택 / 큐  
 **solution5. 프린터 ( 스택/큐 )** : queue와 deque 활용  
-**solution6. 다리를 지나는 트럭 ( 스택/큐 )** : collection, deque 사용, 시간을 따로 계산하지 않고 popleft()와 직접 0과 함께 숫자를 넣어 시간 계산 진행  
+**solution6. 기능개발 ( 스택/큐 )** : zip을 사용해 파싱을 하고 pop을 통한 stack을 활용  
 **solution7. 다리를 지나는 트럭 ( 스택/큐 )** : collection, deque 사용, 시간을 따로 계산하지 않고 popleft()와 직접 0과 함께 숫자를 넣어 시간 계산 진행, reverse를 통한 -1 인덱스 사용  
 **solution8. 주식가격 ( 스택/큐 )** : Stack 활용  
 **solution22. 올바른 괄호 ( 스택/큐 )** : 일반적인 스택 활용, try-except를 사용한 stack 처리   
