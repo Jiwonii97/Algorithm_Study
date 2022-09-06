@@ -17,6 +17,8 @@
 **solution39. 양궁대회 ( 2022 KAKAO BLIND RECRUITMENT )** : DFS 문제 + combination_with_replacement를 통해 경우의 수를 조합해 원하는 결과를 찾을 수 있음  
 **solution40. 다음 큰 숫자 ( 연습문제 )** : bin을 통해 문자열로 변환하고 Counter를 통해 전체적인 개수 파악후, 순차적으로 해답을 찾아감 / string.count()로 Counter 대체 가능  
 **solution41. 가장 큰 정사각형 찾기 ( 연습문제 )** : DP문제, 주변의 데이터를 확인해 이전의 데이터를 활용하는 기본적인 DP 문제 (문제를 보고 손으로 풀어보며 풀이방법을 찾아가는 방향이 좋을거 같다)  
+**solution42. 방문 길이 ( Summer/Winter Coding(~2018) )** : 단순 구현 문제(그래프 문제 같기도 함), 이전의 결과를 기록으로 남겨 다음 데이터에 사용하는 문제  
+**solution43. 스킬트리 ( Summer/Winter Coding(~2018) )** : 문자열 문제, **for-else 문**의 경우 for문이 정상적으로 실행된다면 else 문의 결과가 실행되도록 구성하는 것을 알게됨  
   
 ### - 스택 / 큐  
 **solution5. 프린터 ( 스택/큐 )** : queue와 deque 활용  
