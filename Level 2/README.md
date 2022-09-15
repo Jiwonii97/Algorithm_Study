@@ -26,6 +26,8 @@
 **solution56. k진수에서 소수 개수 구하기 ( 2022 KAKAO BLIND RECRUITMENT )** : 문자열 단순 구현 문제, 시간초과 문제때문에 처음엔 고생하였지만 여러번의 경우를 탐지하는 경우에는 DP 방식보다는 단순 방법이 더 효율적이었던거 같다. (시간초과 주의)  
 **solution57. [3차] 압축 ( 2018 KAKAO BLIND RECRUITMENT )** : 리스트와 딕셔너리 활용 문제, 연속적인 문자열을 이용한다는 점에서 쉽게 접근가능했음, 한두개 풀이를 해가며 접근하는 방식이 중요한듯  
 **solution58. [1차] 프렌즈4블록 ( 2018 KAKAO BLIND RECRUITMENT )** : 단순 구현 문제, 중간중간 놓칠 만한 부분을 캐치하여 수정하는 것이 포인트, 마지막에 join과 list comprehension을 사용해 결과 출력  
+**solution59. 땅따먹기 ( 연습문제 )** : DP 문제, DP로 이전 행의 최대값을 개별적으로 구해 최종적으로 최댓값을 확인하는 방식  
+**solution60. [3차] n진수 게임 ( 2018 KAKAO BLIND RECRUITMENT )** : 문자열 문제, 진수 변환을 활용, 조건에 맞도록 문자열을 걸러냄  
   
 ### - 스택 / 큐  
 **solution5. 프린터 ( 스택/큐 )** : queue와 deque 활용  
