@@ -1,20 +1,20 @@
 # 코딩테스트 연습 / 월간 코드 챌린지 시즌2 / 약수의 개수와 덧셈
 
-import math
 def solution(left, right):
     answer = 0
-    
-    for num in range(left,right+1):
-        cal=[]
-        for n1 in range(1,int(num)+1):
+
+    for num in range(left, right+1):
+        cal = []
+        for n1 in range(1, int(num)+1):
             if num % n1 == 0:
                 cal.append(n1)
                 cal.append(int(num/n1))
-                
+
         cal = set(cal)
-        answer += num*pow((-1),len(cal))
-    
+        answer += num*pow((-1), len(cal))
+
     return answer
+
 
 '''
 < 다른 풀이 >

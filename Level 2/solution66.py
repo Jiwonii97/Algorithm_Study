@@ -2,16 +2,21 @@
 # 정규식 활용 (re.split() : 해당 정규식을 기준으로 문자열 분리)
 
 import re
+
+
 def solution(files):
     subfile = [re.split('([0-9]+)', file) for file in files]
-    
+
     subfile.sort(key=lambda x: (x[0].lower(), int(x[1])))
     answer = [''.join(x) for x in subfile]
-    
+
     return answer
 
-print(solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
-print(solution(["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"]))
+
+print(solution(["img12.png", "img10.png", "img02.png",
+      "img1.png", "IMG01.GIF", "img2.JPG"]))
+print(solution(["F-5 Freedom Fighter", "B-50 Superfortress",
+      "A-10 Thunderbolt II", "F-14 Tomcat"]))
 
 '''
     < 처음 풀이 >

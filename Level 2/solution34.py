@@ -3,44 +3,46 @@
 
 def solution(rows, columns, queries):
     answer = []
-    arr = [[y for y in range(x,x+columns)] for x in range(1,columns*rows+1,columns)]
-    
+    arr = [[y for y in range(x, x+columns)]
+           for x in range(1, columns*rows+1, columns)]
+
     for query in queries:
         [x1, y1, x2, y2] = query
         q = []
-        
-        for ypos in range(y1-1,y2):
+
+        for ypos in range(y1-1, y2):
             q.append(arr[x1-1][ypos])
-        for xpos in range(x1,x2):
+        for xpos in range(x1, x2):
             q.append(arr[xpos][y2-1])
-        for ypos in range(y2-2,y1-2,-1):
+        for ypos in range(y2-2, y1-2, -1):
             q.append(arr[x2-1][ypos])
-        for xpos in range(x2-2,x1-1,-1):
+        for xpos in range(x2-2, x1-1, -1):
             q.append(arr[xpos][y1-1])
-            
-        q.insert(0,q.pop())
+
+        q.insert(0, q.pop())
         answer.append(min(q))
-        
+
         # 다시 삽입
         idx = 0
-        for ypos in range(y1-1,y2):
+        for ypos in range(y1-1, y2):
             arr[x1-1][ypos] = q[idx]
             idx += 1
-        for xpos in range(x1,x2):
+        for xpos in range(x1, x2):
             arr[xpos][y2-1] = q[idx]
             idx += 1
-        for ypos in range(y2-2,y1-2,-1):
+        for ypos in range(y2-2, y1-2, -1):
             arr[x2-1][ypos] = q[idx]
             idx += 1
-        for xpos in range(x2-2,x1-1,-1):
+        for xpos in range(x2-2, x1-1, -1):
             arr[xpos][y1-1] = q[idx]
             idx += 1
-            
+
     return answer
 
-print(solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]]))
-print(solution(3,3,[[1,1,2,2],[1,2,2,3],[2,1,3,2],[2,2,3,3]]))
-print(solution(100,97,[[1,1,100,97]]))
+
+print(solution(6, 6, [[2, 2, 5, 4], [3, 3, 6, 6], [5, 1, 6, 3]]))
+print(solution(3, 3, [[1, 1, 2, 2], [1, 2, 2, 3], [2, 1, 3, 2], [2, 2, 3, 3]]))
+print(solution(100, 97, [[1, 1, 100, 97]]))
 
 '''
     < 다른 풀이 >
