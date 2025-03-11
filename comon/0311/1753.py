@@ -1,6 +1,6 @@
 # https://www.acmicpc.net/problem/1753
 # 최단경로
-# 서로 다른 가중치를 가진 그래프의 최단거리 문제는 '다익스트라 알고리즘'을 적용
+# 서로 다른 가중치를 가진 그래프의 최단거리 문제는 '다익스트라 알고리즘'을 적용 (O(ElogV))
 
 import sys
 import heapq

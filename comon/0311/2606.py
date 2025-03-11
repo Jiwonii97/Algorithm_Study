@@ -1,6 +1,6 @@
 # https://www.acmicpc.net/problem/2606
 # 바이러스
-# visited를 응용한 BFS 문제
+# visited를 응용한 BFS 문제 (O(V + E))
 
 import sys
 from collections import defaultdict

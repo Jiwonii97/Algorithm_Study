@@ -1,6 +1,6 @@
 # https://www.acmicpc.net/problem/18110
 # solved.ac
-# round 함수는 우리가 아는 반올림과 다르게 실행됨 (O(n))
+# round 함수는 우리가 아는 반올림과 다르게 실행됨 (O(NlogN))
 
 import sys
 
