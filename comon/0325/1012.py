@@ -16,19 +16,26 @@ for _ in range(t):
         mat[y][x] = 1
     
     visited = [[False]*m for _ in range(n)]
+    count = 0
     for i in range(n):
         for j in range(m):
-            # 이전에 방문한 적이 있으면 패스
-            if visited[i][j]:
-                continue
+            print(f"> {i}, {j} / {mat[i][j]}")
             
             if mat[i][j] == 1:
+                mat[i][j] == 0
                 dq = [(i, j)]
                 while dq:
+                    print(">>> ",dq)
                     px, py = dq.pop(0)
-                    
+                    mat[px][py] == 0
+
                     for dx, dy in movement:
-                        if px+dxll
-                        if mat[px+dx]
+                        # 행렬의 조건을 만족
+                        if 0<=(px+dx)<n and 0<=(py+dy)<m:
+                            if mat[px+dx][py+dy] == 1:
+                                dq.append((px+dx,py+dy))
+                            
+                count += 1
             
             visited[i][j] = True
+    print(count)
