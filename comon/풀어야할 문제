@@ -36,7 +36,6 @@
 # class2 - 백준 10814: 나이순 정렬
 # class3 - 백준 1463: 1로 만들기
 # class4 - 백준 1149: ​RGB거리
-<<<<<<< HEAD:comon/풀어야할 문제.py
 # 백준 11659 - 구간 합: 구간 합 구하기4
 
 # 0320
@@ -47,7 +46,6 @@
 # 백준 2018 - 투 포인터: 수들의 합 5
 # 백준 16472 - 슬라이딩 윈도우: DNA 비밀번호
 # 백준 1717 - 유니온 파인드: 집합 표현하기
-=======
 # 구간 합: 구간 합 구하기4
 
 # 0325
@@ -60,5 +58,14 @@
 # 양궁대회
 
 # LeetCode (class 2 ~ 3 수준) (필수 알고리즘 대체)
-# 배열 + 문자열 : Merge Strings Alternately 
->>>>>>> 707520c313ff1b3b5c6420e0ef65c7732923483d:comon/풀어야할 문제
+# 배열 + 문자열 : Merge Strings Alternately
+
+# 0327
+# 백준
+
+# class2 백준 9012 : 괄호
+# class3 백준 10026 : 적록색약
+# class4 백준 12865 : 평범한 배낭
+
+# 프로그래머스 (class4 수준) 부대복귀
+# LeetCode (class 3 수준) (필수 알고리즘 대체) Greatest Common Divisor of Strings
