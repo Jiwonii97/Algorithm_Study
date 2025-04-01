@@ -42,7 +42,6 @@
 # class2  10989: 수 정렬하기 3
 # class3 백준 11279: 회의실 배정
 # class4 - 1 백준 1504: 특정한 최단 경로
-
 # 백준 2018 - 투 포인터: 수들의 합 5
 # 백준 16472 - 슬라이딩 윈도우: DNA 비밀번호
 # 백준 1717 - 유니온 파인드: 집합 표현하기
@@ -53,19 +52,23 @@
 # class2 백준 11050 : 이항계수1
 # class3 백준 1012 : 유기농 배추
 # class4 백준 9251 : LCS
-
 # 프로그래머스 (class4 수준)
 # 양궁대회
-
 # LeetCode (class 2 ~ 3 수준) (필수 알고리즘 대체)
 # 배열 + 문자열 : Merge Strings Alternately
 
 # 0327
 # 백준
-
 # class2 백준 9012 : 괄호
 # class3 백준 10026 : 적록색약
 # class4 백준 12865 : 평범한 배낭
-
 # 프로그래머스 (class4 수준) 부대복귀
 # LeetCode (class 3 수준) (필수 알고리즘 대체) Greatest Common Divisor of Strings
+
+# 0401
+# 백준
+# class2 : 15829 : Hashing
+# class3 : 1389 : 케빈 베이컨의 6단계 법칙
+# class4 : 2206 : 벽 부수고 이동하기
+# 리트코드
+# Can Place Flowers
