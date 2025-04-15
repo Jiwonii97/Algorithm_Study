@@ -80,3 +80,10 @@
 # class4 : 11053 : 가장 긴 증가하는 부분 수열
 # 프로그래머스 (class4 수준) 입국심사
 # 리트코드 (class2 ~ 3 사이) Move Zeroes
+
+# 0415
+# 백준
+# class2 백준 2108 :  통계학
+# class3 백준 1697 : 숨바꼭질
+# class4 백준 1991 : 트리 순회
+# 리트코드 (class 3 ~ 4사이?) : Equal Row and Column Pairs
