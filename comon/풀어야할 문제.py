@@ -102,3 +102,10 @@
 # class3 백준 1697 : 숨바꼭질
 # class4 백준 1991 : 트리 순회
 # 리트코드 (class 3 ~ 4사이?) : Equal Row and Column Pairs
+
+# 0417
+# 백준
+# class2 백준 2292:  벌집
+# class3 백준 7569: 토마토
+# class4 백준 11054: 가장 긴 바이토닉 부분 수열
+# 리트코드(class 3 ~ 4사이?) : House Robber
