@@ -81,6 +81,21 @@
 # 프로그래머스 (class4 수준) 입국심사
 # 리트코드 (class2 ~ 3 사이) Move Zeroes
 
+# 0408
+# 백준
+# class2 백준 2839: 설탕 배달
+# class3 백준 7662: 이중 우선순위 큐
+# class4 백준 5639: 이진 검색 트리
+# 리트코드(class 3 ~ 4사이?) : Container With Most Water
+
+
+# 0410
+# 백준
+# class2 백준 11651:  좌표 정렬하기2
+# class3 백준 9461: 파도반 수열
+# class4 백준 16236: 아기 상어
+# 리트코드(class 3 ~ 4사이?): Max Number of K-Sum Pairs
+
 # 0415
 # 백준
 # class2 백준 2108 :  통계학
