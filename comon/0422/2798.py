@@ -1,6 +1,7 @@
 # https://www.acmicpc.net/problem/2798
 # 블랙잭
 # 수학, 조합+정렬 문제, 조건에 맞는 정렬 진행
+# O(n³ log n)
 
 import sys
 from itertools import combinations

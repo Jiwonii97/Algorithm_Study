@@ -1,8 +1,10 @@
 # https://www.acmicpc.net/problem/2667
 # 단지번호붙이기
 # BFS, 중복된 apt를 확인하지 않도록 queue 체크, 그 외에는 이전같이 BFS로 문제 풀이 진행
+# O(n^2)
 
 import sys
+from collections import deque
 input = sys.stdin.readline
 
 dx = [0, 0, 1, -1]
@@ -16,11 +18,11 @@ apt = []
 for i in range(n):
     for j in range(n):
         if mat[i][j] == '1':
-            dq = [(i, j)]
+            dq = deque([(i, j)])
             apt_count = 0
             
             while dq:
-                x, y = dq.pop(0)
+                x, y = dq.popleft()  # O(1) 시간
                 mat[x][y] = '0'
                 apt_count += 1
                 for idx in range(4):
