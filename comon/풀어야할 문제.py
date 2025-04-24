@@ -62,16 +62,12 @@
 # class2 백준 9012 : 괄호
 # class3 백준 10026 : 적록색약
 # class4 백준 12865 : 평범한 배낭
-# 프로그래머스 (class4 수준) 부대복귀
-# LeetCode (class 3 수준) (필수 알고리즘 대체) Greatest Common Divisor of Strings
 
 # 0401
 # 백준
 # class2 : 15829 : Hashing
 # class3 : 1389 : 케빈 베이컨의 6단계 법칙
 # class4 : 2206 : 벽 부수고 이동하기
-# 리트코드
-# Can Place Flowers
 
 # 0403
 # 백준
@@ -79,14 +75,12 @@
 # class3 : 1003 : 피보나치 함수
 # class4 : 11053 : 가장 긴 증가하는 부분 수열
 # 프로그래머스 (class4 수준) 입국심사
-# 리트코드 (class2 ~ 3 사이) Move Zeroes
 
 # 0408
 # 백준
 # class2 백준 2839: 설탕 배달
 # class3 백준 7662: 이중 우선순위 큐
 # class4 백준 5639: 이진 검색 트리
-# 리트코드(class 3 ~ 4사이?) : Container With Most Water
 
 
 # 0410
@@ -94,21 +88,18 @@
 # class2 백준 11651:  좌표 정렬하기2
 # class3 백준 9461: 파도반 수열
 # class4 백준 16236: 아기 상어
-# 리트코드(class 3 ~ 4사이?): Max Number of K-Sum Pairs
 
 # 0415
 # 백준
 # class2 백준 2108 :  통계학
 # class3 백준 1697 : 숨바꼭질
 # class4 백준 1991 : 트리 순회
-# 리트코드 (class 3 ~ 4사이?) : Equal Row and Column Pairs
 
 # 0417
 # 백준
 # class2 백준 2292:  벌집
 # class3 백준 7569: 토마토
 # class4 백준 11054: 가장 긴 바이토닉 부분 수열
-# 리트코드(class 3 ~ 4사이?) : House Robber
 
 # 0422
 # 백준
@@ -116,4 +107,8 @@
 # class3 백준 2667 : 단지번호붙이기
 # class4 백준 11404 : 플로이드
 
-# 리트코드 : Unique Paths
+# 0424
+# 백준
+# class2 백준 10773 : 제로
+# class3 백준 9019 : DSLR
+# class4 백준 15666 : N과 M (12)
